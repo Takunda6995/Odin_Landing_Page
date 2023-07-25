@@ -122,15 +122,27 @@ text-align-last: center;
     background-color: #e5e7eb;
     padding-left: 20px;
     padding-right:20px;
-    height: 250px ;
-}
-.comments{
-    text-align: center;
-    font-size: 36px;
+    height: 400px ;
     
 }
-.comments.span{
+.comments{
+    padding-top: 80px;
+    margin-left:50px ;
     text-align: end;
+    font-size: 36px;
+    width: 80%;
+}
+.comments p{
+
+    text-align:justify;
+    font-style: italic;
+    font-weight: lighter;
+}
+.comments span{
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+    color: #000;
 
 }
 
