@@ -65,11 +65,19 @@ header ,footer, .hero{
 .hero .content p{
     color: #f9faf8;
 }
+/*Hero image container*/
 .HeroImg{
     width :400px;
     height: 200px;
-    border:1px solid gray;
-    background-color: grey;
+    
+    /*background-color: grey;*/
+}
+.HeroImg img{
+    width: auto;
+    height: 200px;
+    object-fit: contain;
+
+
 }
 #Signup1{
     color: #f9faf8;
@@ -115,8 +123,13 @@ text-align-last: center;
     border: 3px solid #3882f6;
     width: 135px;
     height: 135px;
+    overflow: hidden;
     border-radius: 8px;
 
+}
+.galImg img{
+    height: 135px;
+    object-fit:fill;
 }
 .gallaryItem a{
     text-align: center;
@@ -194,6 +207,9 @@ text-align-last: center;
     border-radius: 5px;
     border: 2px solid #f9faf8;
 
+}
+#Signup1:hover,.callContainer .SignUP2:hover{
+    scale: 1.2;
 }
 .MainCallContainer{
     background-color: #3882f6;
